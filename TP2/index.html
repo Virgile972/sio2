@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>SIO CHAT </title>
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <p>Générale</p>
+            <div id="menu">
+                <div style="clear:both"></div>
+            </div>
+            <div id="chatbox">
+                <ul id="messages"></ul>
+                <form id="form" action="">
+                    <input id="input" autocomplete="off" placeholder="Entrez votre message..." maxlength="500"/>
+                    <button id="button">Envoyer</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="socket.io/socket.io.js"></script>
+        <script src="client.js"></script>
+    </body>
+</html>
